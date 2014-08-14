@@ -180,3 +180,5 @@ LOGGING = {
         },
     }
 }
+
+LOGIN_URL = '/helpdesk/login/'
