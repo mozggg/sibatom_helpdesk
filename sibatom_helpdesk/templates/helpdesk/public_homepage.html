@@ -2,108 +2,153 @@
 
 {% block helpdesk_body %}
 
-{% if kb_categories %}
-<h2>{% trans "Knowledgebase Articles" %}</h2>
+    {% if kb_categories %}
+        <h2>{% trans "Knowledgebase Articles" %}</h2>
 
-<table class="table table-hover table-bordered">
-<thead>
-<tr class='row_tablehead'><td>{% trans "Knowledgebase Categories" %}</td></tr>
-<tr class='row_columnheads'><th>{% trans "Category" %}</th></tr>
-</thead>
-<tbody>
-{% for category in kb_categories %}
-<tr class='row_even row_hover'><th><a href='{{ category.get_absolute_url }}'>{{ category.title }}</a></th></tr>
-<tr class='row_odd'><td>{{ category.description }}</td></tr>
-{% endfor %}
-</tbody>
-</table>
-{% endif %}
+        <table class="table table-hover table-bordered">
+            <thead>
+            <tr class='row_tablehead'>
+                <td>{% trans "Knowledgebase Categories" %}</td>
+            </tr>
+            <tr class='row_columnheads'>
+                <th>{% trans "Category" %}</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for category in kb_categories %}
+                <tr class='row_even row_hover'>
+                    <th><a href='{{ category.get_absolute_url }}'>{{ category.title }}</a></th>
+                </tr>
+                <tr class='row_odd'>
+                    <td>{{ category.description }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
 
-{% if helpdesk_settings.HELPDESK_SUBMIT_A_TICKET_PUBLIC %}
-<div class="col-xs-6">
-<div class="panel panel-default">
+    {% if helpdesk_settings.HELPDESK_SUBMIT_A_TICKET_PUBLIC %}
+        <div class="col-xs-6">
+            <div class="panel panel-default">
 
-<div class="panel-body">
-    <h2 name='submit'>{% trans "Submit a Ticket" %}</h2>
-<p>{% trans "All fields are required. Please provide as descriptive a title and description as possible." %}</p>
+                <div class="panel-body">
+                    <h2 name='submit'>{% trans "Submit a Ticket" %}</h2>
 
-<!-- Ручное описание отображения форм создания "Талона" -->
+                    <p>{% trans "All fields are required. Please provide as descriptive a title and description as possible." %}</p>
 
-{% if form.queue.is_hidden %}
-	{{ form.queue }}
-{% else %}
-	<div class="form-group {% if form.queue.errors %}has-error{% endif %}">
-        <label class="control-label" for="id_{{ form.queue.name }}">{{ form.queue.label }}</label>{% if not form.queue.field.required %} <span class='form_optional'>{% trans "(Optional)" %}</span>{% endif %}</dt>
-	<div class="input-group">{{ form.queue }}</div>
-        {% if form.queue.errors %}<div class="help-block">{{ form.queue.errors }}</div>{% endif %}
-        {% if form.queue.help_text %}<span class='fhelp-block'>{{ form.queue.help_text }}</span>{% endif %}
+                    <!-- Ручное описание отображения форм создания "Талона" -->
+
+                    {% if form.queue.is_hidden %}
+                        {{ form.queue }}
+                    {% else %}
+                        <div class="form-group {% if form.queue.errors %}has-error{% endif %}">
+                            <label class="control-label" for="id_{{ form.queue.name }}">{{ form.queue.label }}</label>
+                            {% if not form.queue.field.required %}
+                                <span class='form_optional'>{% trans "(Optional)" %}</span>{% endif %}</dt>
+                            <div class="input-group">{{ form.queue }}</div>
+                            {% if form.queue.errors %}
+                                <div class="help-block">{{ form.queue.errors }}</div>{% endif %}
+                            {% if form.queue.help_text %}<span class='fhelp-block'>{{ form.queue.help_text }}
+                                </span>{% endif %}
+                        </div>
+                    {% endif %}
+
+                    {% if form.title.is_hidden %}
+                        {{ form.title }}
+                    {% else %}
+                        <div class="form-group {% if form.title.errors %}has-error{% endif %}">
+                            <label class="control-label" for="id_{{ form.title.name }}">{{ form.title.label }}</label>
+                            {% if not form.title.field.required %}
+                                <span class='form_optional'>{% trans "(Optional)" %}</span>{% endif %}</dt>
+                            <div class="input-group">{{ form.title }}</div>
+                            {% if form.title.errors %}
+                                <div class="help-block">{{ form.title.errors }}</div>{% endif %}
+                            {% if form.title.help_text %}<span class='fhelp-block'>{{ form.title.help_text }}
+                                </span>{% endif %}
+                        </div>
+                    {% endif %}
+
+                    {% if form.submitter_email.is_hidden %}
+                        {{ form.submitter_email }}
+                    {% else %}
+                        <div class="form-group {% if form.submitter_email.errors %}has-error{% endif %}">
+                            <label class="control-label"
+                                   for="id_{{ form.submitter_email.name }}">{{ form.submitter_email.label }}</label>
+                            {% if not form.submitter_email.field.required %}
+                                <span class='form_optional'>{% trans "(Optional)" %}</span>{% endif %}</dt>
+                            <div class="input-group">{{ form.title }}</div>
+                            {% if form.submitter_email.errors %}
+                                <div class="help-block">{{ form.submitter_email.errors }}</div>{% endif %}
+                            {% if form.submitter_email.help_text %}<span class='fhelp-block'>
+                                {{ form.submitter_email.help_text }}</span>{% endif %}
+                        </div>
+                    {% endif %}
+
+                    {% if form.body.is_hidden %}
+                        {{ form.body }}
+                    {% else %}
+                        <div class="form-group {% if form.body.errors %}has-error{% endif %}">
+                            <label class="control-label" for="id_{{ form.body.name }}">{{ form.body.label }}</label>
+                            {% if not form.body.field.required %}
+                                <span class='form_optional'>{% trans "(Optional)" %}</span>{% endif %}</dt>
+                            <div class="input-group">{{ form.body }}</div>
+                            {% if form.body.errors %}
+                                <div class="help-block">{{ form.body.errors }}</div>{% endif %}
+                            {% if form.body.help_text %}<span class='fhelp-block'>{{ form.body.help_text }}
+                                </span>{% endif %}
+                        </div>
+                    {% endif %}
+
+                    {% if form.attachment.is_hidden %}
+                        {{ form.attachment }}
+                    {% else %}
+                        <div class="form-group {% if form.attachment.errors %}has-error{% endif %}">
+                            <label class="control-label" for="id_{{ form.attachment.name }}">{{ form.attachment.label }}</label>
+                            {% if not form.attachment.field.required %}
+                                <span class='form_optional'>{% trans "(Optional)" %}</span>{% endif %}</dt>
+                            <div class="input-group">{{ form.attachment }}</div>
+                            {% if form.attachment.errors %}
+                                <div class="help-block">{{ form.attachment.errors }}</div>{% endif %}
+                            {% if form.attachment.help_text %}<span class='fhelp-block'>{{ form.attachment.help_text }}
+                                </span>{% endif %}
+                        </div>
+                    {% endif %}
+
+                </div>
+            </div>
         </div>
-{% endif %}
+    {% endif %}
 
-{% if form.title.is_hidden %}
-        {{ form.title }}
-{% else %}
-        <div class="form-group {% if form.title.errors %}has-error{% endif %}">
-        <label class="control-label" for="id_{{ form.title.name }}">{{ form.title.label }}</label>{% if not form.title.field.required %} <span class='form_optional'>{% trans "(Optional)" %}</span>{% endif %}</dt>
-        <div class="input-group">{{ form.title }}</div>
-        {% if form.title.errors %}<div class="help-block">{{ form.title.errors }}</div>{% endif %}
-        {% if form.title.help_text %}<span class='fhelp-block'>{{ form.title.help_text }}</span>{% endif %}
-        </div>
-{% endif %}
-
-{% if form.title.is_hidden %}
-        {{ form.title }}
-{% else %}
-        <div class="form-group {% if form.title.errors %}has-error{% endif %}">
-        <label class="control-label" for="id_{{ form.title.name }}">{{ form.title.label }}</label>{% if not form.title.field.required %} <span class='form_optional'>{% trans "(Optional)" %}</span>{% endif %}</dt>
-        <div class="input-group">{{ form.title }}</div>
-        {% if form.title.errors %}<div class="help-block">{{ form.title.errors }}</div>{% endif %}
-        {% if form.title.help_text %}<span class='fhelp-block'>{{ form.title.help_text }}</span>{% endif %}
-        </div>
-{% endif %}
-
-{% if form.title.is_hidden %}
-        {{ form.title }}
-{% else %}
-        <div class="form-group {% if form.title.errors %}has-error{% endif %}">
-        <label class="control-label" for="id_{{ form.title.name }}">{{ form.title.label }}</label>{% if not form.title.field.required %} <span class='form_optional'>{% trans "(Optional)" %}</span>{% endif %}</dt>
-        <div class="input-group">{{ form.title }}</div>
-        {% if form.title.errors %}<div class="help-block">{{ form.title.errors }}</div>{% endif %}
-        {% if form.title.help_text %}<span class='fhelp-block'>{{ form.title.help_text }}</span>{% endif %}
-        </div>
-{% endif %}
-
-</div>
-</div>
-</div>
-{% endif %}
-
-{% if not helpdesk_settings.HELPDESK_VIEW_A_TICKET_PUBLIC and not helpdesk_settings.HELPDESK_SUBMIT_A_TICKET_PUBLIC %}
+    {% if not helpdesk_settings.HELPDESK_VIEW_A_TICKET_PUBLIC and not helpdesk_settings.HELPDESK_SUBMIT_A_TICKET_PUBLIC %}
         <h2>{% trans "Please use button at upper right to login first." %}</h2>
-{% endif %}
+    {% endif %}
 
-{% if helpdesk_settings.HELPDESK_VIEW_A_TICKET_PUBLIC %}
-<div class="col-xs-6">
-<div class="panel panel-default">
-<div class="panel-body">
-<h2>{% trans "View a Ticket" %}</h2>
+    {% if helpdesk_settings.HELPDESK_VIEW_A_TICKET_PUBLIC %}
+        <div class="col-xs-6">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h2>{% trans "View a Ticket" %}</h2>
 
-<form method='get' action="{% url 'helpdesk_public_view' %}">
-<fieldset>
-    <div class="form-group {% if field.errors %}has-error{% endif %}">
-        <label for='id_ticket'>{% trans "Ticket" %}</label>
-        <div class="input-group"><input type='text' name='ticket' /></div>
-    </div>
-    <div class="form-group {% if field.errors %}has-error{% endif %}">
-        <label for='id_email'>{% trans "Your E-mail Address" %}</label>
-        <div class="input-group"><input type='text' name='email' /></div>
-    </div>
-    <div class='buttons form-group'>
-    <input type='submit' class="btn btn-primary"  value='{% trans "View Ticket" %}' />
-    </div>
-</fieldset>
-{% csrf_token %}</form>
-</div></div></div>
-{% endif %}
+                    <form method='get' action="{% url 'helpdesk_public_view' %}">
+                        <fieldset>
+                            <div class="form-group {% if field.errors %}has-error{% endif %}">
+                                <label for='id_ticket'>{% trans "Ticket" %}</label>
+
+                                <div class="input-group"><input type='text' name='ticket'/></div>
+                            </div>
+                            <div class="form-group {% if field.errors %}has-error{% endif %}">
+                                <label for='id_email'>{% trans "Your E-mail Address" %}</label>
+
+                                <div class="input-group"><input type='text' name='email'/></div>
+                            </div>
+                            <div class='buttons form-group'>
+                                <input type='submit' class="btn btn-primary" value='{% trans "View Ticket" %}'/>
+                            </div>
+                        </fieldset>
+                        {% csrf_token %}</form>
+                </div>
+            </div>
+        </div>
+    {% endif %}
 
 {% endblock %}

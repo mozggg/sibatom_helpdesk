@@ -8,9 +8,10 @@
         {% include "helpdesk/welcome.html" %}
         <div class="dk-search">
             <form action="{% url 'helpdesk_list' %}" method="get">
-                <input class="question-search" value="{{ q|force_escape }}" placeholder="{% trans 'Enter keywords or ticket number here.' %}" type="text" name="q" />
-                <input name="search_type" value="header" type="hidden" />
-                <input value="Search" type="submit" class="submit-question-search" />
+                <input class="question-search" value="{{ q|force_escape }}"
+                       placeholder="{% trans 'Enter keywords or ticket number here.' %}" type="text" name="q"/>
+                <input name="search_type" value="header" type="hidden"/>
+                <input value="Search" type="submit" class="submit-question-search"/>
             </form>
             <div class="clear"></div>
         </div>
