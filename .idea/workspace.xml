@@ -1,58 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f0f2955-a9ea-4fad-8658-896d2e4f6988" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/base.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/confirm_delete_saved_query.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/confirm_delete_saved_query.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/create_ticket.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/create_ticket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/dashboard.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/debug.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/debug.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/delete_ticket.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/delete_ticket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/edit_ticket.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/edit_ticket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/de/email_html_base.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/de/email_html_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/en/email_html_base.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/en/email_html_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/fr/email_html_base.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/fr/email_html_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/it/email_html_base.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/it/email_html_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ru/email_html_base.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ru/email_html_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/email_ignore_add.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/email_ignore_add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/email_ignore_del.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/email_ignore_del.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/email_ignore_list.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/email_ignore_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/followup_edit.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/followup_edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/help_api.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/help_api.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/help_base.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/help_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/help_context.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/help_context.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/inner.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/inner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/kb_category.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/kb_category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/kb_index.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/kb_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/kb_item.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/kb_item.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/registration/logged_out.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/registration/logged_out.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/registration/login.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/registration/login.html" />
+    <list default="true" id="8f0f2955-a9ea-4fad-8658-896d2e4f6988" name="Default" comment="Перестроил структуру отправки талона с публичной страницы.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/navigation.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_base.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_change_language.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_change_language.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_homepage.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_homepage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_homepage1.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_homepage1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_spam.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_spam.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_view_form.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_view_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_view_ticket.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_view_ticket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/report_index.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/report_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/report_output.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/report_output.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/rss_list.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/rss_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/settings.py" afterPath="$PROJECT_DIR$/sibatom_helpdesk/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/sidebar.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/system_settings.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/system_settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_cc_add.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_cc_add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_cc_del.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_cc_del.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_cc_list.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_cc_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_dependency_add.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_dependency_add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_dependency_del.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_dependency_del.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_desc_table.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_desc_table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_list.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ticket_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/urls.py" afterPath="$PROJECT_DIR$/sibatom_helpdesk/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/user_settings.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/user_settings.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/wsgi.py" afterPath="$PROJECT_DIR$/sibatom_helpdesk/wsgi.py" />
     </list>
     <ignored path="sibatom_helpdesk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,46 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actions.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/js/actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2610">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/css/forms.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="354" column="45" selection-start="5635" selection-end="5635" vertical-scroll-proportion="0.0" vertical-offset="4169" max-vertical-offset="6642">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="22" selection-start="3613" selection-end="3613" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="3492">
+            <state line="16" column="48" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
@@ -127,43 +43,91 @@
       <file leaf-file-name="debug.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/debug.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="720">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+              <folding>
+                <marker date="1409098169130" expanded="false" signature="42:72" placeholder="..." />
+                <marker date="1409098169130" expanded="true" signature="73:1223" placeholder="..." />
+                <marker date="1409098169130" expanded="true" signature="111:540" placeholder="..." />
+                <marker date="1409098169130" expanded="false" signature="270:286" placeholder="..." />
+                <marker date="1409098169130" expanded="true" signature="287:477" placeholder="..." />
+                <marker date="1409098169130" expanded="false" signature="585:599" placeholder="..." />
+                <marker date="1409098169130" expanded="true" signature="600:1212" placeholder="..." />
+                <marker date="1409098169130" expanded="true" signature="712:890" placeholder="..." />
+                <marker date="1409098169130" expanded="true" signature="729:869" placeholder="..." />
+                <marker date="1409098169130" expanded="true" signature="910:1195" placeholder="..." />
+                <marker date="1409098169130" expanded="true" signature="1003:1162" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email_html_base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ru/email_html_base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="342">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public_homepage.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="email_text_footer.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ru/email_text_footer.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public_homepage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.59168243" vertical-offset="263" max-vertical-offset="2880">
+            <state line="4" column="26" selection-start="147" selection-end="147" vertical-scroll-proportion="-0.972973" vertical-offset="0" max-vertical-offset="3996">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sib_helpdesk/models.py">
+      <file leaf-file-name="public_base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+            <state line="24" column="48" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-11.296296" vertical-offset="127" max-vertical-offset="666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sib_helpdesk/tests.py">
+      <file leaf-file-name="kb_item.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/kb_item.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sib_helpdesk/views.py">
+      <file leaf-file-name="navigation.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/navigation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+            <state line="85" column="10" selection-start="5481" selection-end="5481" vertical-scroll-proportion="-56.666668" vertical-offset="0" max-vertical-offset="1674">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="30" selection-start="696" selection-end="696" vertical-scroll-proportion="0.73144877" vertical-offset="108" max-vertical-offset="3492">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public_homepage1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_homepage1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="41" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2034">
               <folding />
             </state>
           </provider>
@@ -185,14 +149,17 @@
         <option value="$PROJECT_DIR$/sibatom_helpdesk/urls.py" />
         <option value="$PROJECT_DIR$/sibatom_helpdesk/wsgi.py" />
         <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/sibatom_helpdesk/settings.py" />
         <option value="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_homepage.html" />
+        <option value="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/navigation.html" />
+        <option value="$PROJECT_DIR$/sibatom_helpdesk/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1894" />
-    <option name="height" value="1003" />
+    <option name="x" value="-2" />
+    <option name="y" value="-3" />
+    <option name="width" value="1924" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -220,6 +187,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,7 +290,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,6 +303,7 @@
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesDjangoTemplate" value="false" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -617,20 +585,23 @@
       <created>1409043226510</created>
       <updated>1409043226510</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Перестроил структуру отправки талона с публичной страницы. Произвёл рефактор HTML кода.">
+      <created>1409098530560</created>
+      <updated>1409098530560</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1894" height="1003" extended-state="4" />
+    <frame x="-2" y="-3" width="1924" height="1010" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24867725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2765625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -638,11 +609,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -658,42 +630,13 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Перенёс templates из дистра django-helpdesk. Перенастроил framework на работу с локальной папкой." />
-    <option name="LAST_COMMIT_MESSAGE" value="Перенёс templates из дистра django-helpdesk. Перенастроил framework на работу с локальной папкой." />
+    <MESSAGE value="Перестроил структуру отправки талона с публичной страницы. Произвёл рефактор HTML кода." />
+    <option name="LAST_COMMIT_MESSAGE" value="Перестроил структуру отправки талона с публичной страницы. Произвёл рефактор HTML кода." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helpdesk/priorities/priority1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/priorities/priority5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/helpdesk-extend.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/helpdesk-print.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/hover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helpdesk/jquery.translate-debug-all.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="18" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="27936" />
@@ -838,61 +781,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/css/rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="4007" max-vertical-offset="4590">
-          <folding />
-        </state>
+        <state line="14" column="21" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="4007" max-vertical-offset="4590" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/css/widgets.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10512">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10512" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/SelectBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2106">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2106" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/timeparse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sib_helpdesk/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sib_helpdesk/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="65" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.5368782" vertical-offset="101" max-vertical-offset="684" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
@@ -918,9 +837,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/helpdesk/helpdesk.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="0" selection-start="3225" selection-end="3225" vertical-scroll-proportion="0.0" vertical-offset="3665" max-vertical-offset="5922">
-          <folding />
-        </state>
+        <state line="228" column="0" selection-start="3225" selection-end="3225" vertical-scroll-proportion="0.0" vertical-offset="3665" max-vertical-offset="5922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sib_helpdesk/views.py">
@@ -930,23 +847,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/settings.py">
+    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/debug.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="22" selection-start="3613" selection-end="3613" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="3492">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding>
+            <marker date="1409098169130" expanded="false" signature="42:72" placeholder="..." />
+            <marker date="1409098169130" expanded="true" signature="73:1223" placeholder="..." />
+            <marker date="1409098169130" expanded="true" signature="111:540" placeholder="..." />
+            <marker date="1409098169130" expanded="false" signature="270:286" placeholder="..." />
+            <marker date="1409098169130" expanded="true" signature="287:477" placeholder="..." />
+            <marker date="1409098169130" expanded="false" signature="585:599" placeholder="..." />
+            <marker date="1409098169130" expanded="true" signature="600:1212" placeholder="..." />
+            <marker date="1409098169130" expanded="true" signature="712:890" placeholder="..." />
+            <marker date="1409098169130" expanded="true" signature="729:869" placeholder="..." />
+            <marker date="1409098169130" expanded="true" signature="910:1195" placeholder="..." />
+            <marker date="1409098169130" expanded="true" signature="1003:1162" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_homepage1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="41" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2034">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/debug.html">
+    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ru/email_html_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+        <state line="13" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/ru/email_text_footer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="48" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.59168243" vertical-offset="263" max-vertical-offset="2880">
+        <state line="4" column="26" selection-start="147" selection-end="147" vertical-scroll-proportion="-0.972973" vertical-offset="0" max-vertical-offset="3996">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="48" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-11.296296" vertical-offset="127" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/kb_item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="10" selection-start="5481" selection-end="5481" vertical-scroll-proportion="-56.666668" vertical-offset="0" max-vertical-offset="1674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="30" selection-start="696" selection-end="696" vertical-scroll-proportion="0.73144877" vertical-offset="108" max-vertical-offset="3492">
           <folding />
         </state>
       </provider>
