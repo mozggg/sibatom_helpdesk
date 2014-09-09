@@ -1,224 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f0f2955-a9ea-4fad-8658-896d2e4f6988" name="Default" comment="Перестроил структуру отправки талона с публичной страницы.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/attachments/UnavailableParus-1/1/123.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/buttons/accept.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/buttons/accept.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/buttons/button_template.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/buttons/button_template.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/changelist-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/changelist-bg_rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/chooser-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/chooser_stacked-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/default-bg-reverse.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/default-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/buttons/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/buttons/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/deleted-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/buttons/edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/buttons/edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_addlink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_alert.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_calendar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_changelink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_clock.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_deletelink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_error.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_searchbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_success.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete-8bit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-restore-8bit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-restore.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-splitter-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-grabber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-reverse.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-selected.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/priorities/priority1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/priorities/priority1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/priorities/priority2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/priorities/priority2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/priorities/priority3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/priorities/priority3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/priorities/priority4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/priorities/priority4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/priorities/priority5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/priorities/priority5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/rss_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/rss_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/selector-search.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/buttons/take.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/buttons/take.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tool-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tool-left_over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tool-right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tool-right_over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add_over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright_over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/LICENSE-JQUERY.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/css/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/buttons/button_template.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/buttons/button_template.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/scss/convert.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/convert.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/getElementsBySelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk-extend.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/helpdesk-extend.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk-print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/helpdesk-print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/helpdesk-print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/css/helpdesk-print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/helpdesk.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/helpdesk.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/css/helpdesk.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/hover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/hover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.BezierCurveRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.BezierCurveRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.barRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.barRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.blockRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.blockRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.bubbleRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.bubbleRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.canvasAxisLabelRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.canvasAxisLabelRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.canvasAxisTickRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.canvasAxisTickRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.canvasTextRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.canvasTextRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.categoryAxisRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.categoryAxisRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.cursor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.cursor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.dateAxisRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.dateAxisRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.donutRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.donutRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.dragable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.dragable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.enhancedLegendRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.enhancedLegendRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.funnelRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.funnelRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.highlighter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.highlighter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.logAxisRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.logAxisRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.mekkoAxisRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.mekkoAxisRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.mekkoRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.mekkoRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.meterGaugeRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.meterGaugeRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.ohlcRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.ohlcRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.pieRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.pieRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.pointLabels.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.pointLabels.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/plugins/jqplot.trendline.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/plugins/jqplot.trendline.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-1.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-1.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-smoothness-theme/jquery-ui-1.8.9.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-smoothness-theme/jquery-ui-1.8.9.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery-ui-1.8.9.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery-ui-1.8.9.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/jquery.jqplot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/jquery.jqplot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.jqplot/jquery.jqplot.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.jqplot/jquery.jqplot.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery.translate-debug-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.translate-debug-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/scss/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/ordering.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/priorities/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/priorities/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/helpdesk/scss/reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_base.html" afterPath="$PROJECT_DIR$/sibatom_helpdesk/templates/helpdesk/public_base.html" />
+    <list default="true" id="8f0f2955-a9ea-4fad-8658-896d2e4f6988" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/attachments/UnavailableParus-1/1/123.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/buttons/accept.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/buttons/button_template.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/buttons/button_template.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/buttons/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/buttons/edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/buttons/take.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/helpdesk-extend.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/helpdesk-print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/helpdesk.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/hover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-1.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-smoothness-theme/jquery-ui-1.8.9.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery-ui-1.8.9.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/jquery.jqplot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/jquery.jqplot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.BezierCurveRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.barRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.blockRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.bubbleRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.canvasAxisLabelRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.canvasAxisTickRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.canvasTextRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.categoryAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.cursor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.dateAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.donutRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.dragable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.enhancedLegendRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.funnelRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.highlighter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.logAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.mekkoAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.mekkoRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.meterGaugeRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.ohlcRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.pieRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.pointLabels.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.jqplot/plugins/jqplot.trendline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/jquery.translate-debug-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/priorities/priority1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/priorities/priority2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/priorities/priority3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/priorities/priority4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/priorities/priority5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/priorities/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/helpdesk/rss_icon.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/jquery.translate-debug-all.js" afterPath="$PROJECT_DIR$/static/jquery.translate-debug-all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/helpdesk/jquery.translate-debug-all.js" afterPath="$PROJECT_DIR$/static/helpdesk/jquery.translate-debug-all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/settings.py" afterPath="$PROJECT_DIR$/sibatom_helpdesk/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sibatom_helpdesk.iml" afterPath="$PROJECT_DIR$/.idea/sibatom_helpdesk.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sibatom_helpdesk/urls.py" afterPath="$PROJECT_DIR$/sibatom_helpdesk/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sibatom_helpdesk.iws" />
@@ -320,7 +168,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="53" selection-start="212" selection-end="212" vertical-scroll-proportion="0.22261484" vertical-offset="0" max-vertical-offset="3528">
+            <state line="84" column="0" selection-start="2629" selection-end="2629" vertical-scroll-proportion="0.66784453" vertical-offset="1134" max-vertical-offset="3546">
               <folding />
             </state>
           </provider>
@@ -419,6 +267,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sibatom_helpdesk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sibatom_helpdesk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sibatom_helpdesk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -766,13 +628,18 @@
       <created>1410138782871</created>
       <updated>1410138782872</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавил лого CибАтома на публичную страницу.">
+      <created>1410247057840</created>
+      <updated>1410247057840</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-3" width="1924" height="1010" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -782,13 +649,12 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -809,7 +675,8 @@
     <MESSAGE value="Перенёс templates из дистра django-helpdesk. Перенастроил framework на работу с локальной папкой." />
     <MESSAGE value="Перестроил структуру отправки талона с публичной страницы. Произвёл рефактор HTML кода." />
     <MESSAGE value="Перестроил структуру отправки талона с публичной страницы." />
-    <option name="LAST_COMMIT_MESSAGE" value="Перестроил структуру отправки талона с публичной страницы." />
+    <MESSAGE value="Добавил лого CибАтома на публичную страницу." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил лого CибАтома на публичную страницу." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -822,46 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/priorities/priority1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/priorities/priority5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/helpdesk.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="287" column="1" selection-start="4136" selection-end="4136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5922" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/helpdesk-extend.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/helpdesk-print.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/hover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/jquery.translate-debug-all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="18" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="27936" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="288" />
@@ -872,59 +699,9 @@
         <state line="23" column="65" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="684" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/priorities/priority1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/priorities/priority5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/core.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="5" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3906" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/priorities/priority1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/priorities/priority5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/helpdesk-extend.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/hover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/jquery.translate-debug-all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="18" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="27936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/helpdesk-print.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="587" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/css/base.css">
@@ -990,11 +767,6 @@
     <entry file="file://$PROJECT_DIR$/admin/css/forms.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="354" column="45" selection-start="5635" selection-end="5635" vertical-scroll-proportion="0.0" vertical-offset="4169" max-vertical-offset="6642" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpdesk/helpdesk.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="0" selection-start="3225" selection-end="3225" vertical-scroll-proportion="0.0" vertical-offset="3665" max-vertical-offset="5922" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sib_helpdesk/views.py">
@@ -1115,7 +887,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sibatom_helpdesk/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="212" selection-end="212" vertical-scroll-proportion="0.22261484" vertical-offset="0" max-vertical-offset="3528">
+        <state line="84" column="0" selection-start="2629" selection-end="2629" vertical-scroll-proportion="0.66784453" vertical-offset="1134" max-vertical-offset="3546">
           <folding />
         </state>
       </provider>
