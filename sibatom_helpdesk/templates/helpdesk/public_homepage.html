@@ -120,23 +120,6 @@
                             </div>
                         {% endif %}
 
-                        {% if form.attachment.is_hidden %}
-                            {{ form.attachment }}
-                        {% else %}
-                            <div class="form-group {% if form.attachment.errors %}has-error{% endif %}">
-                                <label class="control-label"
-                                       for="id_{{ form.attachment.name }}">{{ form.attachment.label }}</label>
-                                {% if not form.attachment.field.required %}
-                                    <span class='form_optional'>{% trans "(Optional)" %}</span>{% endif %}</dt>
-                                <div class="input-group">{{ form.attachment }}</div>
-                                {% if form.attachment.errors %}
-                                    <div class="help-block">{{ form.attachment.errors }}</div>{% endif %}
-                                {% if form.attachment.help_text %}<span class='fhelp-block'>
-                                    {{ form.attachment.help_text }}
-                                    </span>{% endif %}
-                            </div>
-                        {% endif %}
-
                         {% if form.custom_UserPhone.is_hidden %}
                             {{ form.custom_UserPhone }}
                         {% else %}
